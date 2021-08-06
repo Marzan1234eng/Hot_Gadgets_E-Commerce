@@ -1,0 +1,15 @@
+.bg-color{
+    background-color: white;
+}
+
+.carousel-item p{
+    text-align: justify;
+}
+
+.buy-button{
+    background-color: black;
+    color: white;
+    padding: 10PX 20PX;
+    border: none;
+    border-radius: 10px;
+}
