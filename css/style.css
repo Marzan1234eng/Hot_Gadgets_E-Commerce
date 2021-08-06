@@ -1,5 +1,5 @@
-.bg-color{
-    background-color: white;
+.container{
+    margin-bottom: 50px;
 }
 
 .carousel-item p{
@@ -12,4 +12,44 @@
     padding: 10PX 20PX;
     border: none;
     border-radius: 10px;
+}
+
+.bar-color{
+    background-color: #f2db16!important;
+}
+
+.bg-1{
+    background-image: url("../images/bg-2.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: 10%;
+}
+
+.bg-2{
+    background-image: url("../images/bg-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 6%;
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
+    text-align: center;
+}
+
+.card img{
+    padding-top: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card-body p{
+    color: grey;
+}
+
+.card-footer{
+    border: none;
+    background-color: white;
+    padding-bottom: 20px;
 }

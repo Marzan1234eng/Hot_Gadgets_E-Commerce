@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hot Gadgets</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -14,7 +15,7 @@
 <!--==========NavBar Start============-->
 
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="logo">
@@ -28,7 +29,7 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Product</a>
+                            <a class="nav-link" href="#product">Product</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">About Us</a>
@@ -46,70 +47,125 @@
 
 <!--==========Carousel Start============-->
 
-    <div class="container">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
+    <div class="container-fluid bg-1">
+        <div class="container bg-2">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bar-color" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bar-color" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bar-color" aria-label="Slide 3"></button>
+                </div>
 
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row d-flex align-items-center">
-                        <div class="col-md-4">
-                            <h1>Macbook Pro</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium asperiores
-                                consectetur debitis deserunt eum eveniet facilis in libero sed! Dolores?
-                                consectetur debitis deserunt eum eveniet facilis in libero sed! Dolores?</p>
-                            <button class="buy-button">Buy Now -></button>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-md-4">
+                                <h1>Macbook Pro</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium asperiores
+                                    consectetur debitis deserunt eum eveniet facilis in libero sed! Dolores?
+                                    consectetur debitis deserunt eum eveniet facilis in libero sed! Dolores?</p>
+                                <button class="buy-button">Buy Now -></button>
+                            </div>
+                            <div class="offset-md-2 col-md-6">
+                                <img src="images/banner-products/product-1.png" class="d-block w-100" alt="Carousel Product Image">
+                            </div>
                         </div>
-                        <div class="offset-md-2 col-md-6">
-                            <img src="images/banner-products/product-1.png" class="d-block w-100" alt="Carousel Product Image">
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-md-4">
+                                <h1>Siri</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Accusantium asperiores consectetur debitis deserunt eum eveniet facilis in libero sed! Dolores?
+                                    consectetur debitis deserunt eum eveniet facilis in libero sed! Dolores?</p>
+                                <button class="buy-button">Buy Now -></button>
+                            </div>
+                            <div class="offset-md-2 col-md-6">
+                                <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="Carousel Product Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-md-4">
+                                <h1>Jumbrotron Sound Box</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Accusantium asperiores consectetur debitis deserunt eum eveniet facilis in libero sed! Dolores?
+                                    consectetur debitis deserunt eum eveniet facilis in libero sed! Dolores?</p>
+                                <button class="buy-button">Buy Now -></button>
+                            </div>
+                            <div class="offset-md-2 col-md-6">
+                                <img src="images/banner-products/slider-3.png" class="d-block w-100" alt="Carousel Product Image">
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="row d-flex align-items-center">
-                        <div class="col-md-4">
-                            <h1>Siri</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Accusantium asperiores consectetur debitis deserunt eum eveniet facilis in libero sed! Dolores?
-                                consectetur debitis deserunt eum eveniet facilis in libero sed! Dolores?</p>
-                            <button class="buy-button">Buy Now -></button>
-                        </div>
-                        <div class="offset-md-2 col-md-6">
-                            <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="Carousel Product Image">
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row d-flex align-items-center">
-                        <div class="col-md-4">
-                            <h1>Jumbrotron Sound Box</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Accusantium asperiores consectetur debitis deserunt eum eveniet facilis in libero sed! Dolores?
-                                consectetur debitis deserunt eum eveniet facilis in libero sed! Dolores?</p>
-                            <button class="buy-button">Buy Now -></button>
-                        </div>
-                        <div class="offset-md-2 col-md-6">
-                            <img src="images/banner-products/slider-3.png" class="d-block w-100" alt="Carousel Product Image">
-                        </div>
-                    </div>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
     </div>
 
 <!--==========Carousel End============-->
+
+<!--==========Smart Phone Start============-->
+
+    <div class="container">
+        <section id="product">
+            <h1>Smartphone</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/phone/phone-1.png" class="card-img-top" alt="Category Phone Image">
+                        <div class="card-body">
+                            <div>
+                                <h5 class="card-title">RedMi Sonix</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <h5>$699</h5>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="buy-button">Buy Now -></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/phone/phone-2.png" class="card-img-top" alt="Category Phone Image">
+                        <div class="card-body">
+                            <h5 class="card-title">iPhone 11 Pro</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            <h5>$999</h5>
+                        </div>
+                        <div class="card-footer">
+                            <button class="buy-button">Buy Now -></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/phone/phone-3.png" class="card-img-top" alt="Category Phone Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Galaxy S10+</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                            <h5>$799</h5>
+                        </div>
+                        <div class="card-footer">
+                            <button class="buy-button">Buy Now -></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+<!--==========Smart Phone End============-->
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
