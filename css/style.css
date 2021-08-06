@@ -1,3 +1,4 @@
+/*==========Carousel Start============*/
 .container{
     margin-bottom: 50px;
 }
@@ -32,16 +33,13 @@
     background-size: 6%;
 }
 
+/*==========Carousel End============*/
+
+/*==========SmartPhone + Laptop Start============*/
 .card{
     border: none;
     box-shadow: 5px 5px 10px lightgrey;
     text-align: center;
-}
-
-.card img{
-    padding-top: 10px;
-    width: 80%;
-    margin: 0 auto;
 }
 
 .card-body p{
@@ -56,4 +54,53 @@
 
 .direction{
     font-size: 15px;
+}
+
+.see-all-text{
+    float: right;
+    font-size: 15px;
+    color: orange;
+}
+/*==========SmartPhone + Laptop End============*/
+
+/*==========Categories Start============*/
+.categories{
+    text-align: center;
+}
+.categories-br{
+    margin: 0 auto 50px;
+    width: 90px;
+    height: 6px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #FFC75BFF 0%, orange 100%);
+}
+
+.card{
+    margin-bottom: 50px;
+}
+
+.card img{
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.card-img-top{
+    width: 50%;
+}
+
+.pale-row{
+    margin: 0 auto;
+}
+
+.pale-img{
+    width: 100%;
+}
+
+.card-text{
+    padding-bottom: 10px;
+}
+
+/*==========Categories End============*/
+footer{
+    text-align: center;
 }
