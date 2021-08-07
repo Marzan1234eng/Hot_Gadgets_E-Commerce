@@ -1,8 +1,11 @@
-/*==========Carousel Start============*/
+/*==========Nav Start============*/
 .container{
     margin-bottom: 50px;
 }
 
+/*==========Nav End============*/
+
+/*==========Carousel Start============*/
 .carousel-item p{
     text-align: justify;
 }
@@ -36,6 +39,10 @@
 /*==========Carousel End============*/
 
 /*==========SmartPhone + Laptop Start============*/
+.row-margin{
+    margin: auto;
+}
+
 .card{
     border: none;
     box-shadow: 5px 5px 10px lightgrey;
