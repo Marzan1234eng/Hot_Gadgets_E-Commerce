@@ -82,10 +82,6 @@
     background-image: linear-gradient(to right, #FFC75BFF 0%, orange 100%);
 }
 
-.card{
-    margin-bottom: 50px;
-}
-
 .card img{
     padding-top: 10px;
     margin: 0 auto;
